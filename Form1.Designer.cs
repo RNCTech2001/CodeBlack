@@ -1,6 +1,6 @@
 ﻿namespace CodeBlack
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -20,7 +20,11 @@
             base.Dispose(disposing);
         }
 
-        private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.Button close_btn;
+        private Microsoft.Web.WebView2.WinForms.WebView2 cbWebView;
+        private System.Windows.Forms.Button maximize_btn;
     }
 }
 
